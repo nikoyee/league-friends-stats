@@ -44,13 +44,13 @@ Our front end service will be created with the objects structure from our backen
 
 # Details
 
+Download and install PostgreSQL on your local environment and set up a DB. We can do this programatically but its easier to just do this with the postgres app so we get a GUI for the database. https://github.com/PostgresApp/PostgresApp
+
 We are using PostgreSQL with Sequelize. Sequelize is an ORM for PostgreSQL. It makes  it a lot easier to understand and develop relational designs with an ORM.
 
 # Roadmap
 
 Sep 7 - 9
-
-
 
 *   Set up a local environment for the backend system
 *   Create a repo on github
@@ -59,11 +59,7 @@ Sep 7 - 9
     *   Documentation
     *   Testing
 
-
-
 Sep 10 - 16
-
-
 
 *   Create the DB schema for the tables we will need
 *   Design the system   
