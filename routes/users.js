@@ -4,7 +4,10 @@ var models = require('../models/index');
 
 /* GET users listing. */
 router.get('/', function(req, res) {
-  res.send('respond with a resource');
+  models.User.findAll({})
+  .then(function(todos) {
+    res.json(todos);
+  });
 });
 
 router.post('/', function(req, res) {
